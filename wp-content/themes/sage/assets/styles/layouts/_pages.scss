@@ -1,0 +1,72 @@
+/* Extra Small Devices, Phones */
+
+$red: #CD3434;
+
+// Resume Page
+.resume {
+  h1,
+  h3,
+  a {
+    color: $red;
+  }
+  h1 {
+    text-transform: uppercase;
+  }
+  a {
+    &:hover,
+    &:focus {
+      text-decoration: none;
+    }
+  }
+  hr {
+    border-top: 1px solid $red;
+  }
+  tr {
+    line-height: 25px;
+    td {
+      padding-right: 35px;
+    }
+  }
+  .information {
+    text-align: center;
+    .visible-xs {
+      display: inline-block !important;
+    }
+  }
+  .spacer {
+    margin-bottom: 20px;
+  }
+}
+
+/* Small Devices (tablets, 768px and up) */
+
+@media only screen and (min-width: $screen-sm-min) {
+  .resume {
+    .information {
+      .visible-xs {
+        display: none !important;
+      }
+      ul {
+        display: inline-block;
+        margin-bottom: 0;
+        li {
+          float: left;
+          border-right: 1px solid $red;
+          padding-right: 10px;
+          margin-right: 10px;
+          &:last-of-type {
+            border-right: none;
+            padding: 0;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+/* Medium Devices (desktops, 992px and up) */
+
+@media only screen and (min-width: $screen-md-min) {}
