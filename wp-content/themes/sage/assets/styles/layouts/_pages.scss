@@ -3,7 +3,7 @@
 $red: #CD3434;
 
 // Resume Page
-.resume {
+.resume-container {
   h1,
   h3,
   a {
@@ -41,7 +41,7 @@ $red: #CD3434;
 /* Small Devices (tablets, 768px and up) */
 
 @media only screen and (min-width: $screen-sm-min) {
-  .resume {
+  .resume-container {
     .information {
       .visible-xs {
         display: none !important;
