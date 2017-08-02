@@ -1,13 +1,11 @@
 /* Extra Small Devices, Phones */
 
-$red: #CD3434;
-
 // Resume Page
 .resume-container {
   h1,
   h3,
   a {
-    color: $red;
+    color: $brand-primary;
   }
   h1 {
     text-transform: uppercase;
@@ -19,7 +17,7 @@ $red: #CD3434;
     }
   }
   hr {
-    border-top: 1px solid $red;
+    border-top: 1px solid $brand-primary;
   }
   tr {
     line-height: 25px;
@@ -51,7 +49,7 @@ $red: #CD3434;
         margin-bottom: 0;
         li {
           float: left;
-          border-right: 1px solid $red;
+          border-right: 1px solid $brand-primary;
           padding-right: 10px;
           margin-right: 10px;
           &:last-of-type {
