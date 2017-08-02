@@ -1,0 +1,38 @@
+/* Extra Small Devices, Phones */
+
+.banner {
+  margin: 25px 0;
+  .brand {
+    float: left;
+    display: inline-block;
+    img {
+      display: block;
+      max-width: 150px;
+    }
+  }
+  nav.nav-primary {
+    float: right;
+    text-align: right;
+    a {
+      text-transform: uppercase;
+    }
+    .nav>li {
+      float: left;
+      &>a {
+        padding: 0 10px;
+      }
+    }
+  }
+}
+
+
+
+/* Small Devices (tablets, 768px and up) */
+
+@media only screen and (min-width: $screen-sm-min) {}
+
+
+
+/* Medium Devices (desktops, 992px and up) */
+
+@media only screen and (min-width: $screen-md-min) {}
