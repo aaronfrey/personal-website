@@ -31,8 +31,14 @@
       display: inline-block !important;
     }
   }
-  .spacer {
+  .info-section {
     margin-bottom: 20px;
+  }
+  .info-section {
+    .info-left {
+      min-width: 200px;
+      margin-right: 25px;
+    }
   }
 }
 

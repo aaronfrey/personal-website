@@ -14,31 +14,64 @@
 	  	</ul>
   	</div>
 
-  	<h3>Education</h3>
-  	<hr>
-  	<div class="spacer">
-  		<strong>West Chester University,</strong> West Chester, Pennsylvania<br>
-  		Bachelor of Science in Computer Science, Graduated December 2006
-  	</div>
-  	<div class="spacer">
-  		<strong>Northampton Community College,</strong> Bethlehem, Pennsylvania<br>
-  		Associate in Science in Computer Informations Science, Graduated May 2004
-  	</div>
-
   	<h3>Employment History</h3>
   	<hr>
-  	<div class="spacer">
-  		<strong>Pepper Lillie,</strong> Philadelphia, Pennsylvania<br>
-  		Freelance Web Development,  September 2015 - Present
-  	</div>
-  	<div class="spacer">
-  		<strong>SuperMighty,</strong> Philadelphia, Pennsylvania<br>
-  		Senior Developer,  April 2014 - September 2015
-  	</div>
-  	<div class="spacer">
-  		<strong>Faculty Creative,</strong> Philadelphia, Pennsylvania<br>
-  		Senior Developer,  September 2008 - May 2014
-  	</div>
+
+    <div class="info-section clearfix">
+      <div class="pull-left info-left">
+        September 2015 - Present<br>
+        Philadelphia, Pennsylvania
+      </div>
+    	<div class="pull-left">
+    		Freelance Web Development | <strong>Pepper Lillie</strong>
+    		<ul>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>  
+        </ul>
+    	</div>
+    </div>
+
+    <div class="info-section clearfix">
+      <div class="pull-left info-left">
+        April 2014 - September 2015<br>
+        Philadelphia, Pennsylvania
+      </div>
+      <div class="pull-left">
+        Senior Developer | <strong>SuperMighty</strong>
+        <ul>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>  
+        </ul>
+      </div>
+    </div>
+
+    <div class="info-section clearfix">
+      <div class="pull-left info-left">
+        September 2008 - May 2014<br>
+        Philadelphia, Pennsylvania
+      </div>
+      <div class="pull-left">
+        Senior Developer | <strong>Faculty Creative,</strong>
+        <ul>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>  
+        </ul>
+      </div>
+    </div>
+
+    <h3>Education</h3>
+    <hr>
+    <div class="spacer">
+      <strong>West Chester University,</strong> West Chester, Pennsylvania<br>
+      Bachelor of Science in Computer Science, Graduated December 2006
+    </div>
+    <div class="spacer">
+      <strong>Northampton Community College,</strong> Bethlehem, Pennsylvania<br>
+      Associate in Science in Computer Informations Science, Graduated May 2004
+    </div>
 
   	<h3>Professional Skills</h3>
   	<hr>

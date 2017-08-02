@@ -1,0 +1,30 @@
+/* Extra Small Devices, Phones */
+
+.content-info {
+	background-color: rgba(205, 52, 52, 0.8);
+	margin-top: 50px;
+	height: 100px;
+	.social {
+		float: right;
+		margin-top: 35px;
+		li {
+			float: left;
+			margin-left: 15px;
+			svg {
+				color: #ffffff;
+				font-size: 32px;
+			}
+		}
+	}
+}
+
+
+/* Small Devices (tablets, 768px and up) */
+
+@media only screen and (min-width: $screen-sm-min) {}
+
+
+
+/* Medium Devices (desktops, 992px and up) */
+
+@media only screen and (min-width: $screen-md-min) {}
