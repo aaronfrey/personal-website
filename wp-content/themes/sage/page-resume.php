@@ -100,29 +100,19 @@
   			<td><strong>Git / GitHub:</strong></td>
   			<td>Advanced</td>
   		</tr>
+      <tr>
+        <td><strong>Gulp / Grunt:</strong></td>
+        <td>Advanced</td>
+      </tr>
   		<tr>
   			<td><strong>SQL:</strong></td>
-  			<td>Intermediate</td>
-  		</tr>
-  		<tr>
-  			<td><strong>Gulp / Grunt:</strong></td>
-  			<td>Intermediate</td>
+  			<td>Advanced</td>
   		</tr>
   		<tr>
   			<td><strong>Photoshop:</strong></td>
   			<td>Intermediate</td>
   		</tr>
   	</table>
-
-  	<h3>References</h3>
-  	<hr>
-  	<div class="clearfix">
-  		<strong class="pull-left">Ty Burrowbridge</strong>
-  		<div class="pull-right">SuperMighty</div>
-  	</div>
-  	<em>Managed Me</em>
-  	<br>
-  	<a href="tel:2152623984">(215) 262-3984</a>
 
   </div>
 
