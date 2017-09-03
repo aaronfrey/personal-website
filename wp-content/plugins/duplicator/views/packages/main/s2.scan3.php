@@ -1,4 +1,6 @@
 <?php
+	/*IDE Helper*/
+	/* @var $Package DUP_Package */
 	function _duplicatorGetRootPath() {
 		$txt   = __('Root Path', 'duplicator');
 		$root  = rtrim(DUPLICATOR_WPROOTPATH, '//');
@@ -53,7 +55,7 @@ TOTAL SIZE -->
 				echo "<b>" . __('Overview', 'duplicator') . ":</b><br/>";
 
 				printf(__('This notice is triggered at <b>%s</b> and can be ignored on most hosts.  If during the build process you see a "Host Build Interrupt" message then this '
-					. 'host has strict processing limits.  Below are some options you can take to overcome constraints setup on this host.', 'duplicator'),
+					. 'host has strict processing limits.  Below are some options you can take to overcome constraints set up on this host.', 'duplicator'),
 					DUP_Util::byteSize(DUPLICATOR_SCAN_SIZE_DEFAULT));
 
 				echo '<br/><br/>';
@@ -61,7 +63,7 @@ TOTAL SIZE -->
 				echo "<b>" . __('Timeout Options', 'duplicator') . ":</b><br/>";
 				echo '<ul>';
 				echo '<li>' . __('Apply the "Quick Filters" below or click the back button to apply on previous page.', 'duplicator') . '</li>';
-				echo '<li>' . __('See the FAQ link to adjust this hosts timeout limits: ', 'duplicator') . "&nbsp;<a href='https://snapcreek.com/duplicator/docs/faqs-tech/#faq-trouble-100-q' target='_blank'>" . __('What can I try for Timeout Issues?', 'duplicator') . '</a></li>';
+				echo '<li>' . __('See the FAQ link to adjust this hosts timeout limits: ', 'duplicator') . "&nbsp;<a href='https://snapcreek.com/duplicator/docs/faqs-tech/?utm_source=duplicator_free&utm_medium=wordpress_plugin&utm_campaign=problem_resolution&utm_content=pkg_s2scan3_tolimits#faq-trouble-100-q' target='_blank'>" . __('What can I try for Timeout Issues?', 'duplicator') . '</a></li>';
 				echo '<li>' . __('Consider trying multi-threaded support in ', 'duplicator');
 				echo "<a href='https://snapcreek.com/duplicator/?utm_source=duplicator_free&utm_medium=wordpress_plugin&utm_content=multithreaded_pro&utm_campaign=duplicator_pro' target='_blank'>" . __('Duplicator Pro.', 'duplicator') . "</a>";
 				echo '</li>';
@@ -114,8 +116,8 @@ TOTAL SIZE -->
 								_e('No large files found during this scan.', 'duplicator');
 							} else {
 								echo "<div style='color:maroon'>";
-								_e('No large files found during this scan.  If your having issues building a package click the back button and try '
-									. 'adding the following file filters to non-essential files paths like wp-conent/uploads.   These filtered files can then '
+								_e('No large files found during this scan.  If you\'re having issues building a package click the back button and try '
+									. 'adding a file filter to non-essential files paths like wp-content/uploads.   These excluded files can then '
 									. 'be manually moved to the new location after you have ran the migration installer.', 'duplicator');
 								echo "</div>";
 							}
@@ -126,6 +128,9 @@ TOTAL SIZE -->
 
 
 			<div class="apply-btn" style="margin-bottom:5px;float:right">
+				<div class="apply-warn">
+					 <?php _e('*Checking a directory will exclude all items recursively from that path down.<br/>Please use caution when filtering directories.', 'duplicator'); ?>
+				</div>
 				<button type="button" class="button-small" onclick="Duplicator.Pack.applyFilters(this, 'large')">
 					<i class="fa fa-filter"></i> <?php _e('Add Filters &amp; Rescan', 'duplicator');?>
 				</button>
@@ -154,7 +159,7 @@ FILE NAME CHECKS -->
             _e('<b>');
             _e('  Only consider using this filter if the package build is failing. Select files that are not important to your site or you can migrate manually.', 'duplicator');
             _e('</b>');
-			$txt = __('If this environment/system and the system where it will be installed are setup to support Unicode and long paths then these filters can be ignored.  '
+			$txt = __('If this environment/system and the system where it will be installed are set up to support Unicode and long paths then these filters can be ignored.  '
 				. 'If you run into issues with creating or installing a package, then is recommended to filter these paths.', 'duplicator');
 		?>
 		<script id="hb-files-utf8" type="text/x-handlebars-template">
@@ -204,6 +209,9 @@ FILE NAME CHECKS -->
 				</div>
 			</div>
 			<div class="apply-btn">
+				<div class="apply-warn">
+					 <?php _e('*Checking a directory will exclude all items recursively from that path down.<br/>Please use caution when filtering directories.', 'duplicator'); ?>
+				</div>
 				<button type="button" class="button-small" onclick="Duplicator.Pack.applyFilters(this, 'utf8')">
 					<i class="fa fa-filter"></i> <?php _e('Add Filters &amp; Rescan', 'duplicator');?>
 				</button>
@@ -284,18 +292,12 @@ DATABASE -->
 			?>
 		</div>
 	</div>
-
 	<?php
-		if ($zip_check != null) {
-			echo '<div class="dup-pro-support">&nbsp;';
-			_e('Get larger site support with', 'duplicator');
-			echo '&nbsp;<a href="https://snapcreek.com/duplicator/?utm_source=duplicator_free&amp;utm_medium=wordpress_plugin&amp;utm_content=free_size_warn&amp;utm_campaign=duplicator_pro" target="_blank">' . __('Professional', 'duplicator') . '!</a>';
-			echo '</div>';
-		} else {
-			echo '<br/>';
-		}
+        echo '<div class="dup-pro-support">&nbsp;';
+        _e('Package support up to 2GB available in', 'duplicator');
+        echo '&nbsp;<i><a href="https://snapcreek.com/duplicator/?utm_source=duplicator_free&amp;utm_medium=wordpress_plugin&amp;utm_content=free_size_warn&amp;utm_campaign=duplicator_pro" target="_blank">' . __('Duplicator Pro', 'duplicator') . '!</a></i>';
+        echo '</div>';
 	?>
-
 </div>
 <br/><br/>
 
@@ -325,8 +327,8 @@ DIALOG: Scan Results -->
 	
 	<!-- PACKAGE -->
 	<h2><i class="fa fa-archive"></i> <?php _e('Package', 'duplicator');?></h2>
-	<b><?php _e('Name', 'duplicator');?>:</b> <?php echo $_POST['package-name']; ?><br/>
-	<b><?php _e('Notes', 'duplicator');?>:</b> <?php echo strlen($_POST['package-notes']) ? $_POST['package-notes'] : __('- no notes -', 'duplicator') ; ?>
+	<b><?php _e('Name', 'duplicator');?>:</b> <?php echo $Package->Name; ?><br/>
+	<b><?php _e('Notes', 'duplicator');?>:</b> <?php echo $Package->Notes; ; ?>
 	<br/><br/>
 
 	<!-- DATABASE -->
@@ -456,6 +458,7 @@ jQuery(document).ready(function($)
 		$(dir).is(':checked')
 			? $.each($checks, function() {$(this).attr({disabled : true, checked : false, title : '<?php _e('Directory applied filter set.', 'duplicator');?>'});})
 			: $.each($checks, function() {$(this).removeAttr('disabled checked title');});
+		$('div.apply-warn').show(300);
 	}
 
 	//Opens a dialog to show scan details
