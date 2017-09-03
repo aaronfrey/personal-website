@@ -22,6 +22,6 @@
     }
   },
   "config": {
-    "devUrl": "http://localhost:8888/personal-site"
+    "devUrl": "http://localhost:8888/personal-website"
   }
 }
