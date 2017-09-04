@@ -2,8 +2,6 @@
 
   <div class="container">
 
-    <?php dynamic_sidebar('sidebar-footer'); ?>
-
     <ul class="social list-unstyled">
     	<li>
     		<a href="https://github.com/aaronfrey" target="_blank" title="Aaron's Github">
