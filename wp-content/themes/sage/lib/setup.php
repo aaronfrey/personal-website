@@ -73,11 +73,7 @@ function display_sidebar() {
 
   isset($display) || $display = !in_array(true, [
     // The sidebar will NOT be displayed if ANY of the following return true.
-    true,
-    is_404(),
-    is_front_page(),
-    is_page_template('template-custom.php'),
-    is_page('resume'),
+    true
   ]);
 
   return apply_filters('sage/display_sidebar', $display);
