@@ -5,7 +5,6 @@
   <div class="resume-container">
 
   	<div class="information">
-	  	<h1>Aaron Frey</h1>
 	  	<ul class="list-unstyled clearfix">
 	  		<li>314 Reed Street, Apt 1F</li>
 	  		<li>Philadelphia, Pennsylvania, 19147</li>
@@ -14,105 +13,61 @@
 	  	</ul>
   	</div>
 
-  	<h3>Employment History</h3>
+    <h3>Skills</h3>
+    <hr>
+    <div>
+      PHP, JavaScript, jQuery, Wordpress, SQL, HTML5, CSS3, SASS, LESS, Angular, Laravel, Gulp, Grunt, Composer, Photoshop.
+    </div>
+
+  	<h3>Experience</h3>
   	<hr>
 
     <div class="info-section clearfix">
-      <div class="pull-left info-left">
-        September 2015 - Present<br>
-        Philadelphia, Pennsylvania
-      </div>
-    	<div class="pull-left">
-    		Freelance Web Development | <strong>Pepper Lillie</strong>
+    	<div>
+    		Full Stack Developer | <strong>Pepper Lillie</strong> | Philadelphia, Pennsylvania<br>
+        May 2015 - Present
     		<ul>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>  
+          <li>Develops responsive, mobile-friendly themes and plugins for industry leading Content Management Systems, including Wordpress and Drupal.</li>
+          <li>Works closely with designers to establish a web-friendly and sensible product.</li> 
         </ul>
     	</div>
     </div>
 
     <div class="info-section clearfix">
-      <div class="pull-left info-left">
-        April 2014 - September 2015<br>
-        Philadelphia, Pennsylvania
-      </div>
-      <div class="pull-left">
-        Senior Developer | <strong>SuperMighty</strong>
+      <div>
+        Senior Developer | <strong>SuperMighty (formerly Faculty Creative)</strong> | Philadelphia, Pennsylvania<br>
+        April 2010 - May 2015
         <ul>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>  
+          <li>Wrote APIs for multiple acclaimed applications, including award winning BizVizz.</li>
+          <li>Established development protocols and coding standards, reviewing all code to ensure compliance.</li>
+          <li>Introduced test-driven development techniques to the organization, greatly reducing bugs and overall project time.</li>  
         </ul>
       </div>
     </div>
 
     <div class="info-section clearfix">
-      <div class="pull-left info-left">
-        September 2008 - May 2014<br>
-        Philadelphia, Pennsylvania
-      </div>
-      <div class="pull-left">
-        Senior Developer | <strong>Faculty Creative,</strong>
+      <div>
+        Build Manager | <strong>Oracle (acquired AdminServer in May 2008)</strong> | Chester, Pennsylvania<br>
+        January 2006 - August 2009
         <ul>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>  
+          <li>Managed a quickly evolving codebase and provided stable client releases  consisting of high-level insurance policy administration software.</li>
+          <li>Wrote complex database queries to automate critical processes for multibillion-dollar corporation ING.</li>
+          <li>Created a Graphic User Interface allowing clients to quickly create dynamic insurance products based on existing business logic.</li>  
         </ul>
       </div>
     </div>
 
     <h3>Education</h3>
     <hr>
-    <div class="spacer">
+    <div>
       <strong>West Chester University,</strong> West Chester, Pennsylvania<br>
-      Bachelor of Science in Computer Science, Graduated December 2006
-    </div>
-    <div class="spacer">
-      <strong>Northampton Community College,</strong> Bethlehem, Pennsylvania<br>
-      Associate in Science in Computer Informations Science, Graduated May 2004
+      BS: Computer Science, Graduated December 2006
+      <p><br>Focused on advanced Computer Science topics including Object Oriented Programming, Data Structures, and Network Security. Received full marks interning at AdminServer, one of the fastest growing tech companies in the Philadelphia area.</p>
     </div>
 
-  	<h3>Professional Skills</h3>
-  	<hr>
-  	<table>
-  		<tr>
-  			<td><strong>PHP:</strong></td>
-  			<td>Expert</td>
-  		</tr>
-  		<tr>
-  			<td><strong>Javascript / jQuery:</strong></td>
-  			<td>Expert</td>
-  		</tr>
-  		<tr>
-  			<td><strong>HTML5:</strong></td>
-  			<td>Expert</td>
-  		</tr>
-  		<tr>
-  			<td><strong>Wordpress Theme &amp; Plugin Development:</strong></td>
-  			<td>Expert</td>
-  		</tr>
-  		<tr>
-  			<td><strong>CSS3 / Sass / Less:</strong></td>
-  			<td>Advanced</td>
-  		</tr>
-  		<tr>
-  			<td><strong>Git / GitHub:</strong></td>
-  			<td>Advanced</td>
-  		</tr>
-      <tr>
-        <td><strong>Gulp / Grunt:</strong></td>
-        <td>Advanced</td>
-      </tr>
-  		<tr>
-  			<td><strong>SQL:</strong></td>
-  			<td>Advanced</td>
-  		</tr>
-  		<tr>
-  			<td><strong>Photoshop:</strong></td>
-  			<td>Intermediate</td>
-  		</tr>
-  	</table>
+    <h3>Accomplishments</h3>
+    <hr>
+    <div><strong>Philadelphia Geek Awards</strong> - 2013 - Mobile App of the Year - BizVizz</div>
 
   </div>
 

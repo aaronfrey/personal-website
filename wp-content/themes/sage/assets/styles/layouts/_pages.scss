@@ -10,20 +10,8 @@
   h1 {
     text-transform: uppercase;
   }
-  a {
-    &:hover,
-    &:focus {
-      text-decoration: none;
-    }
-  }
   hr {
     border-top: 1px solid $brand-primary;
-  }
-  tr {
-    line-height: 25px;
-    td {
-      padding-right: 35px;
-    }
   }
   .information {
     text-align: center;
@@ -33,12 +21,6 @@
   }
   .info-section {
     margin-bottom: 20px;
-  }
-  .info-section {
-    .info-left {
-      min-width: 200px;
-      margin-right: 25px;
-    }
   }
 }
 
@@ -68,8 +50,6 @@
     }
   }
 }
-
-
 
 /* Medium Devices (desktops, 992px and up) */
 
