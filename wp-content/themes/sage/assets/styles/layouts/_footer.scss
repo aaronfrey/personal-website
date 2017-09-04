@@ -8,7 +8,7 @@
     margin: 0;
     li {
       float: left;
-      width: 33.333333%;
+      width: 50%;
       padding: 3px 0;
       a {
         font-size: 20px;
@@ -27,7 +27,15 @@
 
 /* Small Devices (tablets, 768px and up) */
 
-@media only screen and (min-width: $screen-sm-min) {}
+@media only screen and (min-width: $screen-sm-min) {
+  .content-info {
+    ul {
+      li {
+        width: 33.333333%;
+      }
+    }
+  }
+}
 
 /* Medium Devices (desktops, 992px and up) */
 
