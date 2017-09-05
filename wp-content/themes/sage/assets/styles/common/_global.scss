@@ -1,9 +1,20 @@
-* {
-	font-weight: 300;
+body,
+html {
+  height: 100%;
+  font-weight: 300;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap {
+  flex: 1 0 auto;
 }
 
 .container {
-	max-width: 650px;
+  max-width: 650px;
 }
 
 a:hover,
@@ -12,11 +23,11 @@ a:focus {
 }
 
 .home p {
-	font-size: 22px;
+  font-size: 22px;
 }
 
 h3 {
-	color: gray;
-	margin-top: 10px;
-	font-weight: 300;
+  color: gray;
+  margin-top: 10px;
+  font-weight: 300;
 }
