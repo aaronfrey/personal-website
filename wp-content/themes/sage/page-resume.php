@@ -8,7 +8,6 @@
 	  	<ul class="list-unstyled clearfix">
 	  		<li>314 Reed Street, Apt 1F</li>
 	  		<li>Philadelphia, Pennsylvania, 19147</li>
-	  		<li><a href="tel:2154900197"></a>(215) 490-0197</li>
 	  		<li><a href="mailto:<?php echo antispambot('aaron.frey@gmail.com'); ?>"><?php echo antispambot('aaron.frey@gmail.com'); ?></a></li>
 	  	</ul>
   	</div>
