@@ -1,5 +1,21 @@
 /* Extra Small Devices, Phones */
 
+// Plugins Page
+.plugins-container {
+  a {
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 200;
+  }
+  .gallery {
+    margin: 25px 0;
+  }
+  p {
+    font-size: 22px;
+    line-height: 24px;
+  }
+}
+
 // Resume Page
 .resume-container {
   h1,
