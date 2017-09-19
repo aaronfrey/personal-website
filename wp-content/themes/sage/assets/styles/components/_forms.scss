@@ -23,6 +23,9 @@
   padding: 6px 15px;
   font-weight: 300;
   border: 2px solid $brand-black;
+  &.error {
+    border: 2px solid $brand-primary;
+  }
 }
 
 textarea.form-control {
