@@ -17,6 +17,13 @@
   @extend .btn-default;
 }
 
+label {
+  &.error {
+    font-size: 12px !important;
+    color: $brand-primary !important;
+  }
+}
+
 .form-control {
   height: 55px;
   font-size: 20px;
@@ -24,18 +31,27 @@
   font-weight: 300;
   border: 2px solid $brand-black;
   &.error {
-    border: 2px solid $brand-primary;
+    border: 2px solid $brand-primary !important;
+    &::-webkit-input-placeholder {
+      color: $brand-primary;
+    }
+    &::-moz-placeholder {
+      color: $brand-primary;
+    }
+    &:-ms-input-placeholder {
+      color: $brand-primary;
+    }
+    &:-moz-placeholder {
+      color: $brand-primary;
+    }
   }
 }
 
 textarea.form-control {
-	max-height: 200px;
+  max-height: 200px;
 }
 
 form {
-  .required {
-    color: $brand-primary;
-  }
   .wpcf7-form-control-wrap {
     display: block;
   }
