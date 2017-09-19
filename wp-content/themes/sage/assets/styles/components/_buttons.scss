@@ -1,0 +1,17 @@
+.btn {
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  font-weight: 300;
+}
+
+.btn-primary {
+  text-transform: uppercase;
+  height: 54px;
+  width: 100%;
+  padding: 6px 25px;
+  font-size: 22px;
+  border-radius: 27px;
+}
