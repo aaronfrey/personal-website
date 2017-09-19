@@ -1,6 +1,9 @@
 <?php while (have_posts()) : the_post(); ?>
 
-  <?php get_template_part('templates/content', 'page'); ?>
+  <?php
+    get_template_part('templates/content', 'page');
+    $email = get_option('admin_email');
+  ?>
 
   <div class="resume-container">
 
@@ -8,7 +11,7 @@
 	  	<ul class="list-unstyled clearfix">
 	  		<li>314 Reed Street, Apt 1F</li>
 	  		<li>Philadelphia, Pennsylvania, 19147</li>
-	  		<li><a href="mailto:<?php echo antispambot('aaron.frey@gmail.com'); ?>"><?php echo antispambot('aaron.frey@gmail.com'); ?></a></li>
+	  		<li><a href="mailto:<?php echo $email; ?>"><?php echo $email; ?></a></li>
 	  	</ul>
   	</div>
 

@@ -1,3 +1,5 @@
+<?php $email = get_option('admin_email'); ?>
+
 <header class="banner">
 
   <div class="container">
@@ -7,8 +9,8 @@
     </a>
 
     <div class="brand-text">
-      
-      <h2><a href="mailto:aaron.frey@gmail.com" target="_blank">Aaron Frey</a></h2>
+
+      <h2><a href="mailto:<?php echo $email; ?>" target="_blank">Aaron Frey</a></h2>
       <h3>Full Stack Developer</h3>
 
       <nav class="nav-primary">
