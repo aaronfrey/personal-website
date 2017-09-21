@@ -12,7 +12,7 @@
       <li><a href="https://trello.com/aaronjfrey" target="_blank" title="Aaron's Trello"><i class="fab fa-trello"></i>Trello</a></li>
       <li><a href="https://profiles.wordpress.org/aaronfrey" target="_blank" title="Aaron's Wordpress"><i class="fab fa-wordpress-simple"></i>Wordpress</a></li>        
       <li><a href="https://www.facebook.com/aaronjfrey" target="_blank" title="Aaron's Facebook"><i class="fab fa-facebook-square"></i>Facebook</a></li>
-      <li><a href="skype:live:aaron.frey_6" target="_blank" title="Aaron's Skype"><i class="fab fa-skype"></i>Skype</a></li>
+      <li><a href="skype:aaron.j.frey" target="_blank" title="Aaron's Skype"><i class="fab fa-skype"></i>Skype</a></li>
     </ul>
 
   </div>
