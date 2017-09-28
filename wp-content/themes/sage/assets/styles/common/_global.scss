@@ -18,6 +18,15 @@ body {
   max-width: 650px;
 }
 
+.page-header {
+  border-bottom: none;
+  margin: 0;
+  padding: 0;
+  color: $brand-primary;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  letter-spacing: 1px;
+}
+
 a {
 	font-weight: 500;
 }
@@ -27,7 +36,7 @@ a:focus {
   text-decoration: none;
 }
 
-.home p {
+p {
   font-size: 22px;
   margin-bottom: 25px;
 }
